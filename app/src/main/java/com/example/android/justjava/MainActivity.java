@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        int quantity = 200;
+        int quantity = 20;
         display(quantity);
         displayPrice(quantity*5);
     }
